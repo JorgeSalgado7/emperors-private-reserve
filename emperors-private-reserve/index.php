@@ -54,7 +54,7 @@
 		<div class="container">
 
 			<h2 class="estates_heritage__h2">About Emperor’s Private Reserve</h2>
-			<p class="estates_heritage__p">Emperor’s Private Reserve is available exclusively at our largest and most amenity-packed resort destination at Vidanta Nuevo Vallarta, with two distinct locations on property. Whether your preferred spot is near the heart of the resort action or seclusion within lush nature, Emperor’s Private Reserve serves the most discerning travelers.</p>
+			<p class="estates_heritage__p">Emperor’s Private Reserve is available at the luxurious, amenity-packed destination of Vidanta Nuevo Vallarta, with two distinct locations on property. Whether your preferred spot is near the heart of the resort action or seclusion within lush nature, Emperor’s Private Reserve serves the most discerning travelers.</p>
 
 		</div>
 

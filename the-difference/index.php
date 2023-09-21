@@ -97,7 +97,7 @@
 
 			<div class="estates_difference_green__text">
 				<h2 class="estates_difference_green__text__h2">REVOLUTIONARY THEME PARKS</h2>
-				<p class="estates_difference_green__text__p">The future of entertainment is underway at VidantaWorld, the trio of revolutionary theme parks in development at Vidanta Nuevo Vallarta. Coming soon is the first of these parks, BON Beauty of Nature Luxury Theme Park, which offers a collection of immersive lands through which you can explore an entire universe as boundless as your curiosity and as vibrant as your imagination. To ensure that all parks have the same commitment to quality and luxury as the Vidanta Resorts, we have partnered with the best and most innovative names in attraction development and entertainment. And at Jungala AquaTheme Park in Riviera Maya, where we pair the luxury of an aquatic oasis with adrenaline-inducing thrills, even more water rides are in development.</p>
+				<p class="estates_difference_green__text__p">The future of entertainment is currently underway. BON Beauty of Nature Luxury Theme Park is the first of Nuevo Vallarta's forthcoming immersive theme parks. To ensure all parks showcase an unwavering commitment to quality and excellence, they've been created in partnership with the best and most innovative names in attraction development and entertainment.</p>
 			</div>
 
 			<div class="estates_difference_green__img">
@@ -164,10 +164,10 @@
 				<h2 class="estates_difference_white__text__h2">STATE-OF-THE-ART SECURITY</h2>
 				<p class="estates_difference_white__text__p">At each resort destination, Vidanta offers everything you need to
 					enjoy a perfect vacation, all in one convenient, secure location that you need never leave if you choose. From
-					gourmet dining to outdoor adventures to spectacular entertainment, we provide a variety of options so that you
+					gourmet dining to outdoor adventures to spectacular entertainment, Vidanta provides a variety of options so that you
 					can stay focused on what matters most—making wonderful memories with your loved ones. Meanwhile, all Vidanta
 					resorts employ rigorous security measures, including highly controlled access to resort grounds, and advanced
-					security technology to deliver a safe environment that you can enjoy freely during your time with us in
+					security technology to deliver a safe environment that you can enjoy freely during your time in
 					paradise.</p>
 			</div>
 
