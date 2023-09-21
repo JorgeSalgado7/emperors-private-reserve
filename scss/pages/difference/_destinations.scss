@@ -1,0 +1,106 @@
+.estates_difference_destinations{
+	width: 100%;
+	padding: 0 0 50px;
+
+	@media(min-width: 1200px){
+		padding: 55px 0;
+	}
+
+
+	.container{
+		@include flex-a-center;
+	}
+
+	&__map_mobile{
+		width: 100%;
+
+		@media(min-width: 1200px){
+			display: none;
+		}
+
+		img{
+			width: 100%;
+		}
+
+	}
+
+	&__map{
+		width: 100%;
+		max-width: 811px;
+		display: none;
+
+		@media(min-width: 1200px){
+			display: block;
+			max-width: 50%;
+			padding: 2.5rem;
+		}
+
+		@media(min-width: 1400px){
+			max-width: 60%;
+		}
+
+		@media(min-width: 1600px){
+			max-width: 66.66%;
+		}
+
+		img{
+			width: 100%;
+		}
+
+		
+
+	}
+
+	&__text{
+		width: 100%;
+		margin-top: 36px;
+		
+		@media(min-width: 1200px){
+			max-width: 50%;
+			padding: 2.5rem;
+		}
+
+		@media(min-width: 1400px){
+			max-width: 40%;
+		}
+
+		@media(min-width: 1600px){
+			max-width: 33.33%;
+		}
+
+		&__h2{
+			width: 100%;
+			font-size: 30px;
+			line-height: 36px;
+			letter-spacing: 1.76px;
+			color: $rich_black;
+			text-transform: uppercase;
+
+			@media(min-width: 1200px){
+				font-size: 35px;
+				line-height: 41px;
+				max-width: 80%;
+				letter-spacing: 0.15em;
+				padding: 0 2.5rem;
+			}
+
+		}
+
+		&__p{
+			width: 100%;
+			margin-top: 20px;
+			font-size: 22px;
+			line-height: 28px;
+			color: $eerie_black;
+
+			@media(min-width: 1200px){
+				padding: 0 2.5rem;
+				font-size: 24px;
+				line-height: 30px;
+			}
+
+		}
+
+	}
+
+}

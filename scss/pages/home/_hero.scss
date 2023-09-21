@@ -1,0 +1,153 @@
+.estates_hero{
+	width: 100%;
+	background-color: $spanish_purple;
+	background-image: url('../img/home/hero-mobile.webp');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 83px;
+
+	@media(min-width: 768px){
+		background-image: url('../img/home/hero.webp');
+	}
+
+	@media(min-width: 1300px){
+		max-height: 700px;
+	}
+
+	@media(min-width: 1400px){
+		max-height: 750px;
+	}
+
+	@media(min-width: 1500px){
+		max-height: 800px;
+	}
+
+	@media(min-width: 1600px){
+		max-height: 850px;
+	}
+
+	@media(min-width: 1700px){
+		max-height: 98vh;
+	}
+
+	.container{
+		height: 100%;
+		display: flex;
+
+		@media(min-width: 768px){
+			align-items: center;
+		}
+
+	}
+
+	&__h1{
+		margin-top: auto;
+		margin-bottom: 40px;
+		color: $white;
+		font-size: 48px;
+		line-height: 42px;
+		letter-spacing: 3.11px;
+		text-align: center;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+		width: 100%;
+
+		@media(min-width: 768px){
+			text-align: left;
+			margin-top: auto;
+			margin-bottom: auto;
+			max-width: 514px;
+			font-size: 75px;
+			line-height: 68px;
+			letter-spacing: 1.06;
+		}
+
+		@media(min-width: 1200px){
+			max-width: 609px;
+			font-size: 78px;
+			line-height: 75px;
+		}
+
+		@media(min-width: 1300px){
+			max-width: 659px;
+			font-size: 84px;
+			line-height: 81px;
+		}
+
+		@media(min-width: 1400px){
+			max-width: 709px;
+			font-size: 90px;
+			line-height: 87px;
+		}
+
+		@media(min-width: 1500px){
+			max-width: 759px;
+			font-size: 96px;
+			line-height: 93px;
+		}
+
+		@media(min-width: 1600px){
+			max-width: 809px;
+			font-size: 101px;
+			line-height: 98px;
+		}
+
+		@media(min-width: 1700px){
+			max-width: 859px;
+			font-size: 107px;
+			line-height: 98px;
+		}
+
+		@media(min-width: 1800px){
+			max-width: 909px;
+			font-size: 114px;
+			line-height: 111px;
+		}
+
+		@media(min-width: 1900px){
+			max-width: 910px;
+			font-size: 120px;
+			line-height: 117px;
+		}
+
+		// @media(max-width: 1300px){
+		// 	max-width: 610px;
+		// }
+
+		// @media(min-width: 1400px){
+		// 	font-size: 84px;
+		// 	line-height: 84px;
+		// 	max-width: 660px;
+		// }
+
+		// @media(max-width: 1500px){
+		// 	max-width: 710px;
+		// }
+
+		// @media(min-width: 1600px){
+		// 	font-size: 96px;
+		// 	line-height: 96px;
+		// 	max-width: 760px;
+		// }
+
+		// @media(min-width: 1700px){
+		// 	font-size: 102px;
+		// 	line-height: 102px;
+		// 	max-width: 810px;
+		// }
+
+		// @media(min-width: 1800px){
+		// 	font-size: 108px;
+		// 	line-height: 108px;
+		// 	max-width: 860px;
+		// }
+
+		// @media(min-width: 1900px){
+		// 	font-size: 114px;
+		// 	line-height: 114px;
+		// 	max-width: 910px;
+		// }
+
+	}
+
+}

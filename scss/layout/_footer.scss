@@ -1,0 +1,16 @@
+.estates_footer{
+	width: 100%;
+	padding: 33px 15px;
+	@include flex-center-center;
+	background-color: $black;
+
+	img{
+		width: 72px;
+
+		@media(min-width: 992px){
+			width: 90px;
+		}
+
+	}
+
+}

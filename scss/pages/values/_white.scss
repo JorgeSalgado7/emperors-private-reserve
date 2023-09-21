@@ -1,0 +1,91 @@
+.estates_values_white{
+	width: 100%;
+	padding: 57px 0;
+	background-color: $white;
+
+	.container{
+		@include flex-a-center;
+		flex-direction: column;
+
+		@media(min-width: 1200px){
+			flex-direction: row;
+		}
+
+	}
+
+	&__text{
+		width: 100%;
+
+		@media(min-width: 1200px){
+			max-width: 50%;
+			padding: 2.5rem;
+		}
+
+		@media(min-width: 1400px){
+			max-width: 40%;
+		}
+
+		@media(min-width: 1600px){
+			max-width: 33.33%;
+		}
+
+		&__h2{
+			width: 100%;
+			font-size: 30px;
+			line-height: 36px;
+			letter-spacing: 1.76px;
+			color: $rich_black;
+			text-transform: uppercase;
+
+			@media(min-width: 1200px){
+				font-size: 35px;
+				line-height: 41px;
+				max-width: 90%;
+				letter-spacing: 0.15em;
+				padding: 0 2.5rem;
+			}
+
+		}
+
+		&__p{
+			width: 100%;
+			font-size: 22px;
+			line-height: 28px;
+			color: $eerie_black;
+			margin-top: 17px;
+
+			@media(min-width: 1200px){
+				padding: 0 2.5rem;
+				font-size: 24px;
+				line-height: 30px;
+			}
+
+		}
+
+	}
+
+	&__img{
+		width: 100%;
+		margin-top: 30px;
+
+		@media(min-width: 1200px){
+			max-width: 50%;
+			padding: 2.5rem;
+			margin-top: 0;
+		}
+
+		@media(min-width: 1400px){
+			max-width: 60%;
+		}
+
+		@media(min-width: 1600px){
+			max-width: 66.66%;
+		}
+
+		img{
+			width: 100%;
+		}
+
+	}
+
+}

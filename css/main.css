@@ -1,0 +1,1804 @@
+@import url("//hello.myfonts.net/count/3b15a5");
+@import "https://use.typekit.net/fzb5jhn.css";
+@font-face {
+  font-family: "mr-eaves";
+  src: url("../fonts/mreavesmodot-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/mreavesmodot-book-webfont.woff") format("woff"), url("../fonts/mreavesmodot-book-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "mr-eaves";
+  src: url("../fonts/mreavesmodot-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/mreavesmodot-bold-webfont.woff") format("woff"), url("../fonts/mreavesmodot-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'UniversLT-CondensedBold';
+  src: url("../fonts/3B15A5_0_0.eot");
+  src: url("../fonts/3B15A5_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/3B15A5_0_0.woff2") format("woff2"), url("../fonts/3B15A5_0_0.woff") format("woff"), url("../fonts/3B15A5_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'UniversLTPro-LightCond';
+  src: url("../fonts/3B15A5_1_0.eot");
+  src: url("../fonts/3B15A5_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/3B15A5_1_0.woff2") format("woff2"), url("../fonts/3B15A5_1_0.woff") format("woff"), url("../fonts/3B15A5_1_0.ttf") format("truetype"); }
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px; }
+  @media (min-width: 576px) {
+    .container {
+      padding: 0;
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1900px;
+      padding: 0 2rem; } }
+
+.estates_header {
+  width: 100%;
+  height: 83px;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: 0.3s; }
+  @media (min-width: 992px) {
+    .estates_header {
+      height: 100px; } }
+  .estates_header--hide {
+    top: -200%; }
+  .estates_header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .estates_header__logo {
+    cursor: pointer;
+    max-width: 121px;
+    width: 100%; }
+    .estates_header__logo img {
+      width: 100%;
+      height: auto; }
+  .estates_header__nav {
+    width: fit-content;
+    height: 100%;
+    display: none;
+    margin-left: 15px; }
+    @media (min-width: 1200px) {
+      .estates_header__nav {
+        display: flex;
+        align-items: center; } }
+    .estates_header__nav__a {
+      color: #FFFFFF;
+      font-size: 16px;
+      font-family: 'UniversLTPro-LightCond', sans-serif;
+      letter-spacing: 1.06px;
+      padding: 10px 5px;
+      transition: 0.3s;
+      margin-left: 32px;
+      text-transform: uppercase; }
+      .estates_header__nav__a:nth-child(1) {
+        margin-left: 0; }
+      .estates_header__nav__a--active {
+        color: #C49055;
+        border-bottom: 1px solid #C49055; }
+      @media (min-width: 1400px) {
+        .estates_header__nav__a {
+          font-size: 18px; } }
+      .estates_header__nav__a:hover {
+        color: #C49055; }
+  .estates_header__button {
+    color: #73969d;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    font-family: 'UniversLTPro-LightCond', sans-serif;
+    cursor: pointer; }
+    @media (min-width: 576px) {
+      .estates_header__button {
+        font-size: 17px; } }
+    @media (min-width: 1200px) {
+      .estates_header__button {
+        display: none; } }
+    .estates_header__button__toggle {
+      width: 30px;
+      height: 30px;
+      margin-left: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .estates_header__button__toggle--active .estates_header__button__toggle__bar {
+        background-color: transparent; }
+        .estates_header__button__toggle--active .estates_header__button__toggle__bar::after {
+          transform: rotate(315deg);
+          top: 0; }
+        .estates_header__button__toggle--active .estates_header__button__toggle__bar::before {
+          transform: rotate(-315deg);
+          bottom: 0; }
+      .estates_header__button__toggle__bar {
+        position: relative;
+        width: 100%;
+        height: 2px;
+        background-color: #FFFFFF;
+        transition: 0.3s; }
+        .estates_header__button__toggle__bar::after {
+          position: absolute;
+          content: '';
+          top: -8px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: #FFFFFF;
+          transition: 0.3s; }
+        .estates_header__button__toggle__bar::before {
+          position: absolute;
+          content: '';
+          bottom: -8px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: #FFFFFF;
+          transition: 0.3s; }
+
+.estates_menu {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  position: fixed;
+  top: -200%;
+  left: 0;
+  z-index: 99;
+  padding: 110px 0 68px;
+  overflow-y: auto;
+  transition: 0.3s; }
+  .estates_menu--active {
+    top: 0; }
+  .estates_menu__ul {
+    width: 100%; }
+    .estates_menu__ul__li {
+      width: 100%;
+      list-style: none;
+      border-bottom: 1px solid #223A3F;
+      padding: 20px; }
+      .estates_menu__ul__li__a {
+        color: #FFFFFF;
+        font-family: 'UniversLTPro-LightCond', sans-serif;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition: 0.3s; }
+        @media (min-width: 350px) {
+          .estates_menu__ul__li__a {
+            font-size: 26px; } }
+        .estates_menu__ul__li__a:hover {
+          color: #C49055; }
+
+.estates_footer {
+  width: 100%;
+  padding: 33px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000; }
+  .estates_footer img {
+    width: 72px; }
+    @media (min-width: 992px) {
+      .estates_footer img {
+        width: 90px; } }
+
+.estates_hero {
+  width: 100%;
+  background-color: #000000;
+  background-image: url("../img/home/hero-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 83px; }
+  @media (min-width: 768px) {
+    .estates_hero {
+      background-image: url("../img/home/hero.webp"); } }
+  @media (min-width: 1300px) {
+    .estates_hero {
+      max-height: 700px; } }
+  @media (min-width: 1400px) {
+    .estates_hero {
+      max-height: 750px; } }
+  @media (min-width: 1500px) {
+    .estates_hero {
+      max-height: 800px; } }
+  @media (min-width: 1600px) {
+    .estates_hero {
+      max-height: 850px; } }
+  @media (min-width: 1700px) {
+    .estates_hero {
+      max-height: 98vh; } }
+  .estates_hero .container {
+    height: 100%;
+    display: flex; }
+    @media (min-width: 768px) {
+      .estates_hero .container {
+        align-items: center; } }
+  .estates_hero__h1 {
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 42px;
+    letter-spacing: 3.11px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 100%; }
+    @media (min-width: 768px) {
+      .estates_hero__h1 {
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        max-width: 514px;
+        font-size: 75px;
+        line-height: 68px;
+        letter-spacing: 1.06; } }
+    @media (min-width: 1200px) {
+      .estates_hero__h1 {
+        max-width: 609px;
+        font-size: 78px;
+        line-height: 75px; } }
+    @media (min-width: 1300px) {
+      .estates_hero__h1 {
+        max-width: 659px;
+        font-size: 84px;
+        line-height: 81px; } }
+    @media (min-width: 1400px) {
+      .estates_hero__h1 {
+        max-width: 709px;
+        font-size: 90px;
+        line-height: 87px; } }
+    @media (min-width: 1500px) {
+      .estates_hero__h1 {
+        max-width: 759px;
+        font-size: 96px;
+        line-height: 93px; } }
+    @media (min-width: 1600px) {
+      .estates_hero__h1 {
+        max-width: 809px;
+        font-size: 101px;
+        line-height: 98px; } }
+    @media (min-width: 1700px) {
+      .estates_hero__h1 {
+        max-width: 859px;
+        font-size: 107px;
+        line-height: 98px; } }
+    @media (min-width: 1800px) {
+      .estates_hero__h1 {
+        max-width: 909px;
+        font-size: 114px;
+        line-height: 111px; } }
+    @media (min-width: 1900px) {
+      .estates_hero__h1 {
+        max-width: 910px;
+        font-size: 120px;
+        line-height: 117px; } }
+
+.estates_estates {
+  width: 100%;
+  background-color: #000000;
+  background-image: url("../img/home/bg-green.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 66px 0; }
+  .estates_estates__h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 1.55;
+    letter-spacing: 0.8px;
+    text-transform: uppercase; }
+    @media (min-width: 1200px) {
+      .estates_estates__h3 {
+        font-size: 24px;
+        letter-spacing: 0.2em; } }
+  .estates_estates__h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 1.49;
+    letter-spacing: 3.13px;
+    margin-top: 16px;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .estates_estates__h2 {
+        font-size: 46px; } }
+    @media (min-width: 1200px) {
+      .estates_estates__h2 {
+        font-size: 52px;
+        letter-spacing: 0.15em; } }
+  .estates_estates__p {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 1.45;
+    margin-top: 16px; }
+    @media (min-width: 768px) {
+      .estates_estates__p {
+        font-size: 24px; } }
+
+.estates_estates__carousel {
+  width: 100%;
+  margin-top: 68px; }
+  .estates_estates__carousel .swiper-slide {
+    width: 100%;
+    max-width: 308px !important;
+    padding: 0 15px; }
+    @media (min-width: 1200px) {
+      .estates_estates__carousel .swiper-slide {
+        padding: 0; } }
+    @media (min-width: 1400px) {
+      .estates_estates__carousel .swiper-slide {
+        max-width: 375px !important; } }
+    @media (min-width: 1500px) {
+      .estates_estates__carousel .swiper-slide {
+        max-width: 408px !important; } }
+    @media (min-width: 1600px) {
+      .estates_estates__carousel .swiper-slide {
+        max-width: 442px !important; } }
+    @media (min-width: 1700px) {
+      .estates_estates__carousel .swiper-slide {
+        max-width: 475px !important; } }
+    @media (min-width: 1800px) {
+      .estates_estates__carousel .swiper-slide {
+        max-width: 508px !important; } }
+    @media (min-width: 1900px) {
+      .estates_estates__carousel .swiper-slide {
+        max-width: 548px !important; } }
+  .estates_estates__carousel .swiper-button-next::after,
+  .estates_estates__carousel .swiper-button-prev::after {
+    content: ""; }
+  .estates_estates__carousel .swiper-button-prev,
+  .estates_estates__carousel .swiper-button-next {
+    width: 68px;
+    height: 68px;
+    color: #FFFFFF;
+    background-color: #102729;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    top: var(--swiper-navigation-top-offset, 27%); }
+    .estates_estates__carousel .swiper-button-prev:hover,
+    .estates_estates__carousel .swiper-button-next:hover {
+      background-color: #FFFFFF;
+      color: #102729; }
+  .estates_estates__carousel__img_box {
+    width: 100%;
+    max-width: 548px;
+    min-height: 100px;
+    max-height: 429px;
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .estates_estates__carousel__img_box img {
+      width: 100%; }
+  .estates_estates__carousel__h4 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 30px;
+    letter-spacing: 1.61px; }
+  .estates_estates__carousel p {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px; }
+    @media (min-width: 1200px) {
+      .estates_estates__carousel p {
+        font-size: 24px; } }
+  .estates_estates__carousel__link {
+    margin: 17px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+    width: 132px;
+    min-height: 34px;
+    font-family: 'UniversLTPro-LightCond', sans-serif;
+    transition: 0.3s;
+    font-weight: 600; }
+    @media (min-width: 1200px) {
+      .estates_estates__carousel__link {
+        padding: 16px;
+        font-size: 18px;
+        letter-spacing: 2px; } }
+    .estates_estates__carousel__link:hover {
+      background-color: #000000;
+      color: #FFFFFF; }
+
+.estates_heritage_hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 501px;
+  background-color: #000000;
+  background-image: url("../img/heritage/hero-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 83px; }
+  @media (min-width: 768px) {
+    .estates_heritage_hero {
+      background-image: url("../img/heritage/hero.webp"); } }
+  .estates_heritage_hero .container {
+    height: 100%;
+    display: flex; }
+    @media (min-width: 768px) {
+      .estates_heritage_hero .container {
+        align-items: center;
+        justify-content: center; } }
+  .estates_heritage_hero__h1 {
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media (min-width: 576px) {
+      .estates_heritage_hero__h1 {
+        letter-spacing: 2px; } }
+    @media (min-width: 768px) {
+      .estates_heritage_hero__h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 48px;
+        line-height: 68px; } }
+
+.estates_heritage {
+  width: 100%;
+  background-color: #000000;
+  background-image: url("../img/home/bg-green.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 66px 0; }
+  .estates_heritage__h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 42px;
+    letter-spacing: 3.13px;
+    margin-top: 16px;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .estates_heritage__h2 {
+        font-size: 40px;
+        line-height: 1.2em; } }
+  .estates_heritage__p {
+    width: 100%;
+    max-width: 1024px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 1.45;
+    margin: 16px auto 0; }
+    @media (min-width: 768px) {
+      .estates_heritage__p {
+        font-size: 24px; } }
+
+.estates_heritage__timeline {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 60px 0;
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    .estates_heritage__timeline {
+      padding: 60px 0 120px; } }
+  .estates_heritage__timeline__h2 {
+    width: 100%;
+    max-width: 614px;
+    text-align: center;
+    display: none;
+    margin: 0 auto 109px; }
+    @media (min-width: 768px) {
+      .estates_heritage__timeline__h2 {
+        font-size: 29px;
+        line-height: 33px;
+        letter-spacing: 1.71px;
+        display: block; } }
+    @media (min-width: 1200px) {
+      .estates_heritage__timeline__h2 {
+        font-size: 40px;
+        line-height: 1.2em;
+        margin: 0 auto 181px; } }
+  .estates_heritage__timeline__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; }
+    .estates_heritage__timeline__item__year {
+      display: none;
+      width: calc(50% - 8px);
+      padding: 0 30px;
+      position: relative; }
+      @media (min-width: 768px) {
+        .estates_heritage__timeline__item__year {
+          display: block;
+          min-height: 348px;
+          height: 100%; } }
+      @media (min-width: 1200px) {
+        .estates_heritage__timeline__item__year {
+          padding: 80px 60px; } }
+      .estates_heritage__timeline__item__year__span {
+        font-size: 80px;
+        font-family: 'garamond-premier-pro-display', sans-serif;
+        font-weight: 400;
+        color: #020202;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.3; }
+    .estates_heritage__timeline__item__line {
+      width: 16px;
+      min-height: 448px;
+      height: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      .estates_heritage__timeline__item__line__circle {
+        width: 16px;
+        height: 16px;
+        background-color: #d8d8d8;
+        border: 1px solid #979797;
+        border-radius: 50%;
+        position: absolute;
+        top: 0%;
+        opacity: 0.3;
+        z-index: 3; }
+      .estates_heritage__timeline__item__line__line_push {
+        width: 4px;
+        background-color: #000000;
+        position: absolute;
+        top: 0;
+        height: 0%;
+        z-index: 2; }
+      .estates_heritage__timeline__item__line__line_bottom {
+        position: absolute;
+        top: 0;
+        width: 2px;
+        height: 50%;
+        background: linear-gradient(to bottom, rgba(200, 200, 200, 0), #c8c8c8); }
+      .estates_heritage__timeline__item__line__line_top {
+        position: absolute;
+        bottom: 0;
+        width: 2px;
+        height: 50%;
+        background: linear-gradient(to top, rgba(200, 200, 200, 0), #c8c8c8); }
+    .estates_heritage__timeline__item__content {
+      width: calc(100% - 16px);
+      padding: 0 30px;
+      opacity: 0.3; }
+      @media (min-width: 768px) {
+        .estates_heritage__timeline__item__content {
+          width: calc(50% - 8px); } }
+      @media (min-width: 1200px) {
+        .estates_heritage__timeline__item__content {
+          padding: 0 60px; } }
+      .estates_heritage__timeline__item__content__year {
+        font-size: 33px;
+        letter-spacing: 1.94px;
+        color: #020202; }
+        @media (min-width: 768px) {
+          .estates_heritage__timeline__item__content__year {
+            display: none; } }
+      .estates_heritage__timeline__item__content__h3 {
+        font-size: 24px;
+        letter-spacing: 1.41px;
+        color: #020202; }
+      .estates_heritage__timeline__item__content__image {
+        width: 100%;
+        max-width: 466px;
+        min-height: 100px;
+        background-color: #000000;
+        margin: 20px 0; }
+        .estates_heritage__timeline__item__content__image img {
+          width: 100%; }
+      .estates_heritage__timeline__item__content__description {
+        font-size: 20px;
+        line-height: 1.25;
+        color: #1f1f1f;
+        width: 100%; }
+        @media (min-width: 768px) {
+          .estates_heritage__timeline__item__content__description {
+            max-width: 466px; } }
+        .estates_heritage__timeline__item__content__description__ul {
+          width: 100%;
+          max-width: 100%; }
+          @media (min-width: 768px) {
+            .estates_heritage__timeline__item__content__description__ul {
+              max-width: 466px; } }
+          .estates_heritage__timeline__item__content__description__ul__li {
+            list-style-position: inside;
+            font-size: 20px;
+            line-height: 1.25;
+            color: #1f1f1f;
+            margin-top: 5px; }
+
+.estates_difference_hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 501px;
+  background-color: #000000;
+  background-image: url("../img/difference/hero-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 83px; }
+  @media (min-width: 768px) {
+    .estates_difference_hero {
+      background-image: url("../img/difference/hero.webp"); } }
+  .estates_difference_hero .container {
+    height: 100%;
+    display: flex; }
+    @media (min-width: 768px) {
+      .estates_difference_hero .container {
+        align-items: center;
+        justify-content: center; } }
+  .estates_difference_hero__h1 {
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media (min-width: 576px) {
+      .estates_difference_hero__h1 {
+        letter-spacing: 2px; } }
+    @media (min-width: 768px) {
+      .estates_difference_hero__h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 48px;
+        line-height: 68px; } }
+
+.estates_difference {
+  width: 100%;
+  background-color: #000000;
+  background-image: url("../img/home/bg-green.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 66px 0; }
+  .estates_difference__h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 42px;
+    letter-spacing: 3.13px;
+    margin-top: 16px;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .estates_difference__h2 {
+        font-size: 40px;
+        line-height: 1.2em; } }
+  .estates_difference__p {
+    width: 100%;
+    max-width: 1024px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 1.45;
+    margin: 16px auto 0; }
+    @media (min-width: 768px) {
+      .estates_difference__p {
+        font-size: 24px; } }
+
+.estates_difference_destinations {
+  width: 100%;
+  padding: 0 0 50px; }
+  @media (min-width: 1200px) {
+    .estates_difference_destinations {
+      padding: 55px 0; } }
+  .estates_difference_destinations .container {
+    display: flex;
+    align-items: center; }
+  .estates_difference_destinations__map_mobile {
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .estates_difference_destinations__map_mobile {
+        display: none; } }
+    .estates_difference_destinations__map_mobile img {
+      width: 100%; }
+  .estates_difference_destinations__map {
+    width: 100%;
+    max-width: 811px;
+    display: none; }
+    @media (min-width: 1200px) {
+      .estates_difference_destinations__map {
+        display: block;
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_difference_destinations__map {
+        max-width: 60%; } }
+    @media (min-width: 1600px) {
+      .estates_difference_destinations__map {
+        max-width: 66.66%; } }
+    .estates_difference_destinations__map img {
+      width: 100%; }
+  .estates_difference_destinations__text {
+    width: 100%;
+    margin-top: 36px; }
+    @media (min-width: 1200px) {
+      .estates_difference_destinations__text {
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_difference_destinations__text {
+        max-width: 40%; } }
+    @media (min-width: 1600px) {
+      .estates_difference_destinations__text {
+        max-width: 33.33%; } }
+    .estates_difference_destinations__text__h2 {
+      width: 100%;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 1.76px;
+      color: #020202;
+      text-transform: uppercase; }
+      @media (min-width: 1200px) {
+        .estates_difference_destinations__text__h2 {
+          font-size: 35px;
+          line-height: 41px;
+          max-width: 80%;
+          letter-spacing: 0.15em;
+          padding: 0 2.5rem; } }
+    .estates_difference_destinations__text__p {
+      width: 100%;
+      margin-top: 20px;
+      font-size: 22px;
+      line-height: 28px;
+      color: #1f1f1f; }
+      @media (min-width: 1200px) {
+        .estates_difference_destinations__text__p {
+          padding: 0 2.5rem;
+          font-size: 24px;
+          line-height: 30px; } }
+
+.estates_difference_green {
+  width: 100%;
+  padding: 57px 0;
+  background-color: #000000; }
+  .estates_difference_green .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    @media (min-width: 1200px) {
+      .estates_difference_green .container {
+        flex-direction: row; } }
+  .estates_difference_green__text {
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .estates_difference_green__text {
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_difference_green__text {
+        max-width: 40%; } }
+    @media (min-width: 1600px) {
+      .estates_difference_green__text {
+        max-width: 33.33%; } }
+    .estates_difference_green__text__h2 {
+      width: 100%;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 1.76px;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+      @media (min-width: 1200px) {
+        .estates_difference_green__text__h2 {
+          font-size: 35px;
+          line-height: 41px;
+          max-width: 90%;
+          letter-spacing: 0.15em;
+          padding: 0 2.5rem; } }
+    .estates_difference_green__text__p {
+      width: 100%;
+      font-size: 22px;
+      line-height: 28px;
+      color: #FFFFFF;
+      margin-top: 17px; }
+      @media (min-width: 1200px) {
+        .estates_difference_green__text__p {
+          padding: 0 2.5rem;
+          font-size: 24px;
+          line-height: 30px; } }
+  .estates_difference_green__img {
+    width: 100%;
+    margin-top: 30px; }
+    @media (min-width: 1200px) {
+      .estates_difference_green__img {
+        max-width: 50%;
+        padding: 2.5rem;
+        margin-top: 0; } }
+    @media (min-width: 1400px) {
+      .estates_difference_green__img {
+        max-width: 60%; } }
+    @media (min-width: 1600px) {
+      .estates_difference_green__img {
+        max-width: 66.66%; } }
+    .estates_difference_green__img img {
+      width: 100%; }
+
+.estates_difference_white {
+  width: 100%;
+  padding: 57px 0;
+  background-color: #FFFFFF; }
+  .estates_difference_white .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse; }
+    @media (min-width: 1200px) {
+      .estates_difference_white .container {
+        flex-direction: row; } }
+  .estates_difference_white__text {
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .estates_difference_white__text {
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_difference_white__text {
+        max-width: 40%; } }
+    @media (min-width: 1600px) {
+      .estates_difference_white__text {
+        max-width: 33.33%; } }
+    .estates_difference_white__text__h2 {
+      width: 100%;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 1.76px;
+      color: #020202;
+      text-transform: uppercase; }
+      @media (min-width: 1200px) {
+        .estates_difference_white__text__h2 {
+          font-size: 35px;
+          line-height: 41px;
+          max-width: 90%;
+          letter-spacing: 0.15em;
+          padding: 0 2.5rem; } }
+    .estates_difference_white__text__p {
+      width: 100%;
+      font-size: 22px;
+      line-height: 28px;
+      color: #1f1f1f;
+      margin-top: 17px; }
+      @media (min-width: 1200px) {
+        .estates_difference_white__text__p {
+          padding: 0 2.5rem;
+          font-size: 24px;
+          line-height: 30px; } }
+  .estates_difference_white__img {
+    width: 100%;
+    margin-top: 30px; }
+    @media (min-width: 1200px) {
+      .estates_difference_white__img {
+        max-width: 50%;
+        padding: 2.5rem;
+        margin-top: 0; } }
+    @media (min-width: 1400px) {
+      .estates_difference_white__img {
+        max-width: 60%; } }
+    @media (min-width: 1600px) {
+      .estates_difference_white__img {
+        max-width: 66.66%; } }
+    .estates_difference_white__img img {
+      width: 100%; }
+
+.estates_values_hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 501px;
+  background-color: #000000;
+  background-image: url("../img/values/hero-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 83px; }
+  @media (min-width: 768px) {
+    .estates_values_hero {
+      background-image: url("../img/values/hero.webp"); } }
+  .estates_values_hero .container {
+    height: 100%;
+    display: flex; }
+    @media (min-width: 768px) {
+      .estates_values_hero .container {
+        align-items: center;
+        justify-content: center; } }
+  .estates_values_hero__h1 {
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media (min-width: 576px) {
+      .estates_values_hero__h1 {
+        letter-spacing: 2px; } }
+    @media (min-width: 768px) {
+      .estates_values_hero__h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 48px;
+        line-height: 68px; } }
+
+.estates_values_green {
+  width: 100%;
+  padding: 57px 0;
+  background-color: #000000; }
+  .estates_values_green .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse; }
+    @media (min-width: 1200px) {
+      .estates_values_green .container {
+        flex-direction: row; } }
+  .estates_values_green__text {
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .estates_values_green__text {
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_values_green__text {
+        max-width: 40%; } }
+    @media (min-width: 1600px) {
+      .estates_values_green__text {
+        max-width: 33.33%; } }
+    .estates_values_green__text__h2 {
+      width: 100%;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 1.76px;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+      @media (min-width: 1200px) {
+        .estates_values_green__text__h2 {
+          font-size: 35px;
+          line-height: 41px;
+          max-width: 90%;
+          letter-spacing: 0.15em;
+          padding: 0 2.5rem; } }
+    .estates_values_green__text__p {
+      width: 100%;
+      font-size: 22px;
+      line-height: 28px;
+      color: #FFFFFF;
+      margin-top: 17px; }
+      @media (min-width: 1200px) {
+        .estates_values_green__text__p {
+          padding: 0 2.5rem;
+          font-size: 24px;
+          line-height: 30px; } }
+  .estates_values_green__img {
+    width: 100%;
+    margin-top: 30px; }
+    @media (min-width: 1200px) {
+      .estates_values_green__img {
+        max-width: 50%;
+        padding: 2.5rem;
+        margin-top: 0; } }
+    @media (min-width: 1400px) {
+      .estates_values_green__img {
+        max-width: 60%; } }
+    @media (min-width: 1600px) {
+      .estates_values_green__img {
+        max-width: 66.66%; } }
+    .estates_values_green__img img {
+      width: 100%; }
+
+.estates_values_white {
+  width: 100%;
+  padding: 57px 0;
+  background-color: #FFFFFF; }
+  .estates_values_white .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    @media (min-width: 1200px) {
+      .estates_values_white .container {
+        flex-direction: row; } }
+  .estates_values_white__text {
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .estates_values_white__text {
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_values_white__text {
+        max-width: 40%; } }
+    @media (min-width: 1600px) {
+      .estates_values_white__text {
+        max-width: 33.33%; } }
+    .estates_values_white__text__h2 {
+      width: 100%;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 1.76px;
+      color: #020202;
+      text-transform: uppercase; }
+      @media (min-width: 1200px) {
+        .estates_values_white__text__h2 {
+          font-size: 35px;
+          line-height: 41px;
+          max-width: 90%;
+          letter-spacing: 0.15em;
+          padding: 0 2.5rem; } }
+    .estates_values_white__text__p {
+      width: 100%;
+      font-size: 22px;
+      line-height: 28px;
+      color: #1f1f1f;
+      margin-top: 17px; }
+      @media (min-width: 1200px) {
+        .estates_values_white__text__p {
+          padding: 0 2.5rem;
+          font-size: 24px;
+          line-height: 30px; } }
+  .estates_values_white__img {
+    width: 100%;
+    margin-top: 30px; }
+    @media (min-width: 1200px) {
+      .estates_values_white__img {
+        max-width: 50%;
+        padding: 2.5rem;
+        margin-top: 0; } }
+    @media (min-width: 1400px) {
+      .estates_values_white__img {
+        max-width: 60%; } }
+    @media (min-width: 1600px) {
+      .estates_values_white__img {
+        max-width: 66.66%; } }
+    .estates_values_white__img img {
+      width: 100%; }
+
+.estates_about_hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 501px;
+  background-color: #000000;
+  background-image: url("../img/about/hero-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 83px; }
+  @media (min-width: 768px) {
+    .estates_about_hero {
+      background-image: url("../img/about/hero.webp"); } }
+  .estates_about_hero .container {
+    height: 100%;
+    display: flex; }
+    @media (min-width: 768px) {
+      .estates_about_hero .container {
+        align-items: center;
+        justify-content: center; } }
+  .estates_about_hero__h1 {
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media (min-width: 576px) {
+      .estates_about_hero__h1 {
+        letter-spacing: 2px; } }
+    @media (min-width: 768px) {
+      .estates_about_hero__h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 48px;
+        line-height: 68px; } }
+
+.estates_destinations {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #FFFFFF; }
+  @media (min-width: 992px) {
+    .estates_destinations {
+      padding: 60px 0; } }
+  .estates_destinations__h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 1.49px;
+    text-transform: uppercase; }
+    @media (min-width: 1200px) {
+      .estates_destinations__h2 {
+        font-size: 34px;
+        line-height: 1.2em;
+        letter-spacing: 0.8px; } }
+  .estates_destinations__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-top: 30px; }
+    @media (min-width: 992px) {
+      .estates_destinations__grid {
+        grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 1200px) {
+      .estates_destinations__grid {
+        gap: 3.5rem; } }
+    .estates_destinations__grid__item {
+      width: 100%; }
+      .estates_destinations__grid__item__img {
+        width: 100%; }
+        .estates_destinations__grid__item__img img {
+          width: 100%; }
+      .estates_destinations__grid__item__h3 {
+        width: 100%;
+        height: 54px;
+        font-size: 21px;
+        line-height: 27px;
+        letter-spacing: 1.24px;
+        margin-top: 21px;
+        text-transform: uppercase;
+        text-align: center; }
+        @media (min-width: 1200px) {
+          .estates_destinations__grid__item__h3 {
+            font-size: 24px;
+            line-height: 1.2;
+            letter-spacing: 0.8px; } }
+      .estates_destinations__grid__item__link {
+        width: 100%;
+        height: 62px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px;
+        transition: 0.3s;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-family: 'UniversLTPro-LightCond', sans-serif;
+        padding: 5px 15px; }
+        @media (min-width: 1200px) {
+          .estates_destinations__grid__item__link {
+            font-size: 18px;
+            line-height: 24px; } }
+        .estates_destinations__grid__item__link:hover {
+          background-color: #000000;
+          color: #FFFFFF; }
+
+.estates_accommodations_hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 501px;
+  background-color: #000000;
+  background-image: url("../img/accommodations/hero-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 83px; }
+  @media (min-width: 768px) {
+    .estates_accommodations_hero {
+      background-image: url("../img/accommodations/hero.webp"); } }
+  .estates_accommodations_hero .container {
+    height: 100%;
+    display: flex; }
+    @media (min-width: 768px) {
+      .estates_accommodations_hero .container {
+        align-items: center;
+        justify-content: center; } }
+  .estates_accommodations_hero__h1 {
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media (min-width: 576px) {
+      .estates_accommodations_hero__h1 {
+        letter-spacing: 2px; } }
+    @media (min-width: 768px) {
+      .estates_accommodations_hero__h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 48px;
+        line-height: 68px; } }
+
+.estates_accommodations_hotel_hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 501px;
+  background-color: #000000;
+  background-image: url("../img/accommodations/hero-destinations-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 83px; }
+  @media (min-width: 768px) {
+    .estates_accommodations_hotel_hero {
+      background-image: url("../img/accommodations/hero-destinations.webp"); } }
+  .estates_accommodations_hotel_hero .container {
+    height: 100%;
+    display: flex; }
+    @media (min-width: 768px) {
+      .estates_accommodations_hotel_hero .container {
+        align-items: center;
+        justify-content: center; } }
+  .estates_accommodations_hotel_hero__h1 {
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase; }
+    @media (min-width: 576px) {
+      .estates_accommodations_hotel_hero__h1 {
+        letter-spacing: 2px; } }
+    @media (min-width: 768px) {
+      .estates_accommodations_hotel_hero__h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 48px;
+        line-height: 68px; } }
+
+.estates_accommodations_hotel__white {
+  width: 100%;
+  padding: 36px 0;
+  background-color: #FFFFFF; }
+  .estates_accommodations_hotel__white .container {
+    display: flex;
+    flex-direction: column-reverse; }
+    @media (min-width: 1200px) {
+      .estates_accommodations_hotel__white .container {
+        flex-direction: row;
+        align-items: center; } }
+  .estates_accommodations_hotel__white__text {
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .estates_accommodations_hotel__white__text {
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_accommodations_hotel__white__text {
+        max-width: 40%; } }
+    @media (min-width: 1600px) {
+      .estates_accommodations_hotel__white__text {
+        max-width: 33.33%; } }
+    .estates_accommodations_hotel__white__text__h2 {
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 1.76px;
+      color: #000000;
+      margin-top: 31px;
+      display: none;
+      text-transform: uppercase; }
+      @media (min-width: 1200px) {
+        .estates_accommodations_hotel__white__text__h2 {
+          display: block;
+          font-size: 35px;
+          line-height: 41px;
+          max-width: 80%;
+          letter-spacing: 0.15em;
+          padding: 0 2.5rem;
+          margin-top: 0; } }
+    .estates_accommodations_hotel__white__text__ul {
+      width: 100%;
+      margin-top: 31px; }
+      @media (min-width: 1200px) {
+        .estates_accommodations_hotel__white__text__ul {
+          margin-top: 0; } }
+      .estates_accommodations_hotel__white__text__ul li {
+        list-style-position: inside;
+        color: #000000;
+        margin-top: 10px;
+        font-size: 22px; }
+        @media (min-width: 1200px) {
+          .estates_accommodations_hotel__white__text__ul li {
+            font-size: 24px;
+            line-height: 1.8em;
+            padding: 0 2.5rem; } }
+  .estates_accommodations_hotel__white__img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative; }
+    @media (min-width: 1200px) {
+      .estates_accommodations_hotel__white__img {
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_accommodations_hotel__white__img {
+        max-width: 60%; } }
+    @media (min-width: 1600px) {
+      .estates_accommodations_hotel__white__img {
+        max-width: 66.66%; } }
+    .estates_accommodations_hotel__white__img img {
+      width: 100%; }
+    .estates_accommodations_hotel__white__img__button {
+      width: 100%;
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-family: 'UniversLTPro-LightCond', sans-serif;
+      color: #102729;
+      border: 1px solid #56aeba;
+      text-transform: uppercase;
+      background-color: #FFFFFF; }
+      @media (min-width: 1200px) {
+        .estates_accommodations_hotel__white__img__button {
+          content: '';
+          position: absolute;
+          bottom: 2.5rem;
+          left: 2.5rem;
+          width: 281px; } }
+      .estates_accommodations_hotel__white__img__button img {
+        height: 37px;
+        width: auto;
+        margin-right: 10px; }
+
+.estates_accommodations_hotel__green {
+  width: 100%;
+  padding: 36px 0;
+  background-color: #000000; }
+  .estates_accommodations_hotel__green .container {
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 1200px) {
+      .estates_accommodations_hotel__green .container {
+        flex-direction: row;
+        align-items: center; } }
+  .estates_accommodations_hotel__green__text {
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .estates_accommodations_hotel__green__text {
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_accommodations_hotel__green__text {
+        max-width: 40%; } }
+    @media (min-width: 1600px) {
+      .estates_accommodations_hotel__green__text {
+        max-width: 33.33%; } }
+    .estates_accommodations_hotel__green__text__h2 {
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 1.76px;
+      color: #FFFFFF;
+      margin-top: 31px;
+      display: none;
+      text-transform: uppercase; }
+      @media (min-width: 1200px) {
+        .estates_accommodations_hotel__green__text__h2 {
+          display: block;
+          font-size: 35px;
+          line-height: 41px;
+          max-width: 80%;
+          letter-spacing: 0.15em;
+          padding: 0 2.5rem;
+          margin-top: 0; } }
+    .estates_accommodations_hotel__green__text__ul {
+      width: 100%;
+      margin-top: 31px; }
+      @media (min-width: 1200px) {
+        .estates_accommodations_hotel__green__text__ul {
+          margin-top: 0; } }
+      .estates_accommodations_hotel__green__text__ul li {
+        list-style-position: inside;
+        color: #FFFFFF;
+        margin-top: 10px;
+        font-size: 22px; }
+        @media (min-width: 1200px) {
+          .estates_accommodations_hotel__green__text__ul li {
+            font-size: 24px;
+            line-height: 1.8em;
+            padding: 0 2.5rem; } }
+  .estates_accommodations_hotel__green__img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative; }
+    @media (min-width: 1200px) {
+      .estates_accommodations_hotel__green__img {
+        max-width: 50%;
+        padding: 2.5rem; } }
+    @media (min-width: 1400px) {
+      .estates_accommodations_hotel__green__img {
+        max-width: 60%; } }
+    @media (min-width: 1600px) {
+      .estates_accommodations_hotel__green__img {
+        max-width: 66.66%; } }
+    .estates_accommodations_hotel__green__img img {
+      width: 100%; }
+    .estates_accommodations_hotel__green__img__button {
+      width: 100%;
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-family: 'UniversLTPro-LightCond', sans-serif;
+      color: #102729;
+      border: 1px solid #56aeba;
+      text-transform: uppercase;
+      background-color: #FFFFFF; }
+      @media (min-width: 1200px) {
+        .estates_accommodations_hotel__green__img__button {
+          content: '';
+          position: absolute;
+          bottom: 2.5rem;
+          left: 2.5rem;
+          width: 281px; } }
+      .estates_accommodations_hotel__green__img__button img {
+        height: 37px;
+        width: auto;
+        margin-right: 10px; }
+
+.estates_accommodations_hotel__modal {
+  position: fixed;
+  top: -200%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+  z-index: 101;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.5s ease-in-out; }
+  .estates_accommodations_hotel__modal--active {
+    top: 0;
+    opacity: 1; }
+  .estates_accommodations_hotel__modal--close {
+    width: 47px;
+    height: 47px;
+    min-height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    margin-left: auto;
+    color: #FFFFFF;
+    transition: 0.3s;
+    font-size: 20px;
+    cursor: pointer; }
+    @media (min-width: 768px) {
+      .estates_accommodations_hotel__modal--close {
+        width: 67px;
+        height: 67px;
+        min-height: 67px;
+        font-size: 30px; } }
+    .estates_accommodations_hotel__modal--close:hover {
+      background-color: #000000; }
+  .estates_accommodations_hotel__modal__title {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    color: #000000;
+    font-size: 31px;
+    line-height: 35px;
+    letter-spacing: 1.82px;
+    font-weight: 600;
+    margin: 43px auto;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .estates_accommodations_hotel__modal__title {
+        font-size: 40px;
+        line-height: 45px; } }
+  .estates_accommodations_hotel__modal img {
+    max-width: 100%;
+    max-height: 50vh;
+    margin: 0 auto 67px; }
+
+.estates_accommodations_hotel__h2_responsive {
+  width: 100%;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 1.76px;
+  color: #000000;
+  margin-bottom: 31px;
+  text-transform: uppercase; }
+  @media (min-width: 1200px) {
+    .estates_accommodations_hotel__h2_responsive {
+      display: none; } }
+  .estates_accommodations_hotel__h2_responsive--white {
+    color: #FFFFFF; }
+
+.estates_amenities_hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 501px;
+  background-color: #000000;
+  background-image: url("../img/amenities/hero-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 83px; }
+  @media (min-width: 768px) {
+    .estates_amenities_hero {
+      background-image: url("../img/amenities/hero.webp"); } }
+  .estates_amenities_hero .container {
+    height: 100%;
+    display: flex; }
+    @media (min-width: 768px) {
+      .estates_amenities_hero .container {
+        align-items: center;
+        justify-content: center; } }
+  .estates_amenities_hero__h1 {
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media (min-width: 576px) {
+      .estates_amenities_hero__h1 {
+        letter-spacing: 2px; } }
+    @media (min-width: 768px) {
+      .estates_amenities_hero__h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 48px;
+        line-height: 68px; } }
+
+.estates_amenities_about {
+  width: 100%;
+  background-color: #000000;
+  background-image: url("../img/home/bg-green.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 66px 0; }
+  .estates_amenities_about__h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 42px;
+    letter-spacing: 3.13px;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .estates_amenities_about__h2 {
+        font-size: 40px;
+        line-height: 1.2em; } }
+  .estates_amenities_about__p {
+    width: 100%;
+    max-width: 1024px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 1.45;
+    margin: 16px auto 0; }
+    @media (min-width: 768px) {
+      .estates_amenities_about__p {
+        font-size: 24px; } }
+
+.estates_amenities_specs {
+  width: 100%;
+  background-color: #000000;
+  background-image: url("../img/amenities/specs-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 48px 0 260px; }
+  @media (min-width: 992px) {
+    .estates_amenities_specs {
+      background-image: url("../img/amenities/specs.webp");
+      padding: 80px 0 260px; } }
+  .estates_amenities_specs__h2 {
+    font-size: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; }
+    @media (min-width: 992px) {
+      .estates_amenities_specs__h2 {
+        margin: 0 0 0 auto;
+        text-align: left;
+        font-size: 38px; } }
+  .estates_amenities_specs__hr {
+    background-color: #FFFFFF;
+    margin: 25px auto;
+    width: 100%;
+    max-width: 400px; }
+    @media (min-width: 992px) {
+      .estates_amenities_specs__hr {
+        margin: 25px 0 25px auto; } }
+  .estates_amenities_specs__ul {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; }
+    @media (min-width: 992px) {
+      .estates_amenities_specs__ul {
+        margin: 0 0 0 auto; } }
+    .estates_amenities_specs__ul__li {
+      color: #FFFFFF;
+      list-style-position: inside;
+      font-size: 22px;
+      margin-top: 10px; }
+
+.estates_gallery_hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 501px;
+  background-color: #000000;
+  background-image: url("../img/gallery/hero-mobile.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 83px; }
+  @media (min-width: 768px) {
+    .estates_gallery_hero {
+      background-image: url("../img/gallery/hero.webp"); } }
+  .estates_gallery_hero .container {
+    height: 100%;
+    display: flex; }
+    @media (min-width: 768px) {
+      .estates_gallery_hero .container {
+        align-items: center;
+        justify-content: center; } }
+  .estates_gallery_hero__h1 {
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media (min-width: 576px) {
+      .estates_gallery_hero__h1 {
+        letter-spacing: 2px; } }
+    @media (min-width: 768px) {
+      .estates_gallery_hero__h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 48px;
+        line-height: 68px; } }
+
+.estates_gallery {
+  width: 100%;
+  background-color: #000000;
+  background-image: url("../img/home/bg-green.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 66px 0; }
+  .estates_gallery__h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 42px;
+    letter-spacing: 3.13px;
+    margin-top: 16px;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .estates_gallery__h2 {
+        font-size: 40px;
+        line-height: 1.2em; } }
+  .estates_gallery__p {
+    width: 100%;
+    max-width: 1024px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 1.45;
+    margin: 16px auto 0; }
+    @media (min-width: 768px) {
+      .estates_gallery__p {
+        font-size: 24px; } }
+
+.estates_gallery__gallery {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 15px 0; }
+  .estates_gallery__gallery__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px; }
+    @media (min-width: 576px) {
+      .estates_gallery__gallery__grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 60px 0; } }
+    @media (min-width: 1200px) {
+      .estates_gallery__gallery__grid {
+        gap: 47px; } }
+    .estates_gallery__gallery__grid__item {
+      width: 100%;
+      min-height: 211px;
+      background-color: #000000;
+      color: #FFFFFF;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+      line-height: 44px;
+      letter-spacing: 2px;
+      text-align: center;
+      font-family: 'garamond-premier-pro-display', sans-serif;
+      font-weight: 400;
+      background-image: url("../img/amenities/specs.webp");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      @media (min-width: 992px) {
+        .estates_gallery__gallery__grid__item {
+          min-height: 348px;
+          font-size: 41px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'mr-eaves-modern';
+  font-weight: 300; }
+
+h1, h2, h3, h4 {
+  font-family: 'garamond-premier-pro-display', sans-serif;
+  font-weight: 400; }
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }

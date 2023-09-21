@@ -1,0 +1,76 @@
+//* GLOBALS
+@import 'global/fonts';
+@import 'global/container';
+@import 'global/colors';
+@import 'mixins/flex';
+
+//* LAYOUTS
+@import 'layout/header';
+@import 'layout/menu';
+@import 'layout/footer';
+
+//* HOME
+@import 'pages/home/hero';
+@import 'pages/home/estates';
+@import 'pages/home/carrousel'; 
+
+//* HERITAGE
+@import 'pages/heritage/hero';
+@import 'pages/heritage/heritage';
+@import 'pages/heritage/timeline';
+
+//* DIFFERENCE
+@import 'pages/difference/hero';
+@import 'pages/difference/about';
+@import 'pages/difference/destinations';
+@import 'pages/difference/green';
+@import 'pages/difference/white';
+
+//* VALUES
+@import 'pages/values/hero';
+@import 'pages/values/green';
+@import 'pages/values/white';
+
+//* ABOUT
+@import 'pages/about/hero';
+@import 'pages/about/destinations';
+
+//* ACCOMMODATIONS
+@import 'pages/accommodations/hero';
+@import 'pages/accommodations/hotel';
+
+//* AMENITIES
+@import 'pages/amenities/hero';
+@import 'pages/amenities/about';
+@import 'pages/amenities/specs';
+
+//* GALLERY
+@import 'pages/gallery/hero';
+@import 'pages/gallery/about';
+@import 'pages/gallery/gallery';
+
+@import "https://use.typekit.net/fzb5jhn.css";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'mr-eaves-modern';
+	font-weight: 300;
+}
+
+h1, h2, h3, h4{
+	font-family: 'garamond-premier-pro-display', sans-serif;
+	font-weight: 400;
+}
+
+button{
+	background-color: transparent;
+	outline: none;
+	border: 0;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}

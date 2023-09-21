@@ -1,0 +1,194 @@
+.estates_heritage__timeline{
+	width: 100%;
+	background-color: $white;
+	padding: 60px 0;
+	overflow: hidden;
+
+	@media(min-width: 768px){
+		padding: 60px 0 120px;
+	}
+
+	&__h2{
+		width: 100%;
+		max-width: 614px;
+		text-align: center;
+		display: none;
+		margin: 0 auto 109px;
+
+		@media(min-width: 768px){
+			font-size: 29px;
+			line-height: 33px;
+			letter-spacing: 1.71px;
+			display: block;
+		}
+
+		@media(min-width: 1200px){
+			font-size: 40px;
+			line-height: 1.2em;
+			margin: 0 auto 181px;
+		}
+
+
+	}
+
+	&__item{
+		width: 100%;
+		@include flex-center-center;
+		overflow: hidden;
+
+		&__year{
+			display: none;
+			width: calc(50% - 8px);
+			padding: 0 30px;
+			position: relative;
+
+			@media(min-width: 768px){
+				display: block;
+				min-height: 348px;
+				height: 100%;
+			}
+
+			@media(min-width: 1200px){
+				padding: 80px 60px;
+			}
+
+			&__span{
+				font-size: 80px;
+				font-family: 'garamond-premier-pro-display', sans-serif;
+				font-weight: 400;
+				color: $rich_black;
+				position: absolute;
+				top: 0%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				opacity: 0.3;
+			}
+
+		}
+
+		&__line{
+			width: 16px;
+			min-height: 448px;
+			height: 100%;
+			position: relative;
+			@include flex-center-center;
+			flex-direction: column;
+
+			&__circle{
+				width: 16px;
+				height: 16px;
+				background-color: $light_silver;
+				border: 1px solid $gray;
+				border-radius: 50%;
+				position: absolute;
+				top: 0%;
+				opacity: 0.3;
+				z-index: 3;
+			}
+
+			&__line_push{
+				width: 4px;
+				background-color: $black;
+				position: absolute;
+				top: 0;
+				height: 0%;
+				z-index: 2;
+			}
+
+			&__line_bottom{
+				position: absolute;
+				top: 0;
+				width: 2px;
+				height: 50%;
+				background: linear-gradient(to bottom, rgba(200, 200, 200, 0), #c8c8c8);
+			}
+
+			&__line_top{
+				position: absolute;
+				bottom: 0;
+				width: 2px;
+				height: 50%;
+				background: linear-gradient(to top, rgba(200, 200, 200, 0), #c8c8c8);
+			}
+
+		}
+
+		&__content{
+			width: calc(100% - 16px);
+			padding: 0 30px;
+			opacity: 0.3;
+
+			@media(min-width: 768px){
+				width: calc(50% - 8px);
+			}
+
+			@media(min-width: 1200px){
+				padding: 0 60px;
+			}
+
+			&__year{
+				font-size: 33px;
+				letter-spacing: 1.94px;
+				color: $rich_black;
+
+				@media(min-width: 768px){
+					display: none;
+				}
+
+			}
+
+			&__h3{
+				font-size: 24px;
+				letter-spacing: 1.41px;
+				color: $rich_black;
+			}
+
+			&__image{
+				width: 100%;
+				max-width: 466px;
+				min-height: 100px;
+				background-color: $spanish_purple;
+				margin: 20px 0;
+
+				img{
+					width: 100%;
+				}
+
+			}
+
+			&__description{
+				font-size: 20px;
+				line-height: 1.25;
+				color: $eerie_black;
+				width: 100%;
+
+				@media(min-width: 768px){
+					max-width: 466px;
+				}
+
+				&__ul{
+					width: 100%;
+					max-width: 100%;
+
+					@media(min-width: 768px){
+						max-width: 466px;
+					}
+				
+					&__li{
+						list-style-position: inside;
+						font-size: 20px;
+						line-height: 1.25;
+						color: $eerie_black;
+						margin-top: 5px;
+					}
+				
+				}
+
+
+			}
+
+		}
+
+	}
+
+}

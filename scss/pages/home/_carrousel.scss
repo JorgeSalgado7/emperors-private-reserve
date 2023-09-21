@@ -1,0 +1,130 @@
+.estates_estates__carousel {
+	width: 100%;
+	margin-top: 68px;
+
+	.swiper-slide {
+		width: 100%;
+		max-width: 308px !important;
+		padding: 0 15px;
+
+		@media(min-width: 1200px) {
+			padding: 0;
+		}
+
+		@media(min-width: 1400px) {
+			max-width: 375px !important;
+		}
+
+		@media(min-width: 1500px) {
+			max-width: 408px !important;
+		}
+
+		@media(min-width: 1600px) {
+			max-width: 442px !important;
+		}
+
+		@media(min-width: 1700px) {
+			max-width: 475px !important;
+		}
+
+		@media(min-width: 1800px) {
+			max-width: 508px !important;
+		}
+
+		@media(min-width: 1900px) {
+			max-width: 548px !important;
+		}
+
+	}
+
+	.swiper-button-next::after,
+	.swiper-button-prev::after {
+		content: "";
+	}
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		width: 68px;
+		height: 68px;
+		color: $white;
+		background-color: $dark_jungle_green_2;
+		font-size: 30px;
+		@include flex-center-center;
+		transition: 0.3s;
+		top: var(--swiper-navigation-top-offset, 27%);
+
+		&:hover {
+			background-color: $white;
+			color: $dark_jungle_green_2;
+		}
+
+	}
+
+
+	&__img_box {
+		width: 100%;
+		max-width: 548px;
+		min-height: 100px;
+		max-height: 429px;
+		background-color: $spanish_purple;
+		overflow: hidden;
+		@include flex-center-center;
+
+		img {
+			width: 100%;
+		}
+
+	}
+
+	&__h4 {
+		width: 100%;
+		text-align: center;
+		text-transform: uppercase;
+		color: $white;
+		font-size: 24px;
+		margin-top: 30px;
+		letter-spacing: 1.61px;
+	}
+
+	p {
+		width: 100%;
+		text-align: center;
+		color: $white;
+		font-weight: 300;
+		font-size: 20px;
+
+		@media(min-width: 1200px) {
+			font-size: 24px;
+		}
+
+	}
+
+	&__link {
+		margin: 17px auto 0;
+		@include flex-center-center;
+		background-color: $white;
+		color: $black;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 16px;
+		text-align: center;
+		width: 132px;
+		min-height: 34px;
+		font-family: 'UniversLTPro-LightCond', sans-serif;
+		transition: 0.3s;
+		font-weight: 600;
+
+		@media(min-width: 1200px) {
+			padding: 16px;
+			font-size: 18px;
+			letter-spacing: 2px;
+		}
+
+		&:hover {
+			background-color: $black;
+			color: $white;
+		}
+
+	}
+
+}

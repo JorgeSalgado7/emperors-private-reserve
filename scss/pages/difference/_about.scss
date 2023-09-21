@@ -1,0 +1,42 @@
+.estates_difference {
+	width: 100%;
+	background-color: $spanish_purple;
+	background-image: url('../img/home/bg-green.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 66px 0;
+
+	&__h2 {
+		width: 100%;
+		text-align: center;
+		font-size: 36px;
+		color: $white;
+		line-height: 42px;
+		letter-spacing: 3.13px;
+		margin-top: 16px;
+		text-transform: uppercase;
+
+		@media(min-width: 768px) {
+			font-size: 40px;
+			line-height: 1.2em;
+		}
+
+	}
+
+	&__p {
+		width: 100%;
+		max-width: 1024px;
+		text-align: center;
+		color: $white;
+		font-size: 22px;
+		line-height: 1.45;
+		margin: 16px auto 0;
+
+		@media(min-width: 768px) {
+			font-size: 24px;
+		}
+
+	}
+
+}
