@@ -86,8 +86,9 @@
 					<div class="estates_heritage__timeline__item__content__image">
 						<img src="../img/heritage//timeline/1974.webp" alt="">
 					</div>
-					<p class="estates_heritage__timeline__item__content__description">The dream begins with a small hotel in
-						Mazatlán called Paraíso Mazatlán</p>
+					<ul class="estates_heritage__timeline__item__content__description__ul">
+						<li class="estates_heritage__timeline__item__content__description__ul__li">The dream begins with a small hotel in Mazatlán called Paraíso Mazatlán</li>
+					</ul>
 				</div>
 
 			</div>
@@ -111,8 +112,9 @@
 					<div class="estates_heritage__timeline__item__content__image">
 						<img src="../img/heritage/timeline/1980.webp" alt="">
 					</div>
-					<p class="estates_heritage__timeline__item__content__description">Our second project, Paraíso del Mar
-						Mazatlán, opens</p>
+					<ul class="estates_heritage__timeline__item__content__description__ul">
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Our second project, Paraíso del Mar Mazatlán, opens</li>
+					</ul>
 				</div>
 
 			</div>
@@ -136,7 +138,9 @@
 					<div class="estates_heritage__timeline__item__content__image">
 						<img src="../img/heritage/timeline/1986.webp" alt="">
 					</div>
-					<p class="estates_heritage__timeline__item__content__description">Vidafel Puerto Vallarta opens</p>
+					<ul class="estates_heritage__timeline__item__content__description__ul">
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Vidafel Puerto Vallarta opens</li>
+					</ul>
 				</div>
 
 			</div>
@@ -165,7 +169,6 @@
 						<li class="estates_heritage__timeline__item__content__description__ul__li">Vidafel rebrands to Mayan Resorts</li>
 						<li class="estates_heritage__timeline__item__content__description__ul__li">Mayan Palace Acapulco opens</li>
 					</ul>
-
 					
 				</div>
 
@@ -190,7 +193,9 @@
 					<div class="estates_heritage__timeline__item__content__image">
 						<img src="../img/heritage/timeline/1997.webp" alt="">
 					</div>
-					<p class="estates_heritage__timeline__item__content__description">Mayan Palace Nuevo Vallarta opens</p>
+					<ul class="estates_heritage__timeline__item__content__description__ul">
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Mayan Palace Nuevo Vallarta opens</li>
+					</ul>
 				</div>
 
 			</div>
@@ -301,8 +306,9 @@
 					<div class="estates_heritage__timeline__item__content__image">
 						<img src="../img/heritage/timeline/2008.webp" alt="">
 					</div>
-					<p class="estates_heritage__timeline__item__content__description">Grupo Mayan rebrands as Grupo Vidanta and
-						launches two new luxury concepts: The Grand Bliss & Grand Luxxe</p>
+					<ul class="estates_heritage__timeline__item__content__description__ul">
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Grupo Mayan rebrands as Grupo Vidanta and launches two new luxury concepts: The Grand Bliss & Grand Luxxe</li>
+					</ul>
 				</div>
 
 			</div>
@@ -387,7 +393,8 @@
 					</div>
 
 					<ul class="estates_heritage__timeline__item__content__description__ul">
-						<li class="estates_heritage__timeline__item__content__description__ul__li">Grupo Vidanta celebrates 40 years Cirque du Soleil JOYÀ, a partnership between Grupo Vidanta and the visionary entertainment company, debuts in Riviera Maya</li>
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Grupo Vidanta celebrates 40 years</li>
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Cirque du Soleil JOYÀ, a partnership between Grupo Vidanta and the visionary entertainment company, debuts in Riviera Maya</li>
 						<li class="estates_heritage__timeline__item__content__description__ul__li">Grand Luxxe Residence Tower opens in Nuevo Vallarta</li>
 						<li class="estates_heritage__timeline__item__content__description__ul__li">Mayan Palace Playa Tower opens in Acapulco</li>
 					</ul>
@@ -415,8 +422,6 @@
 					<div class="estates_heritage__timeline__item__content__image">
 						<img src="../img/heritage/timeline/2015.webp" alt="">
 					</div>
-					<p class="estates_heritage__timeline__item__content__description">Grand Luxxe Nuevo Vallarta receives AAA Five
-						Diamond Rating</p>
 
 					<ul class="estates_heritage__timeline__item__content__description__ul">
 						<li class="estates_heritage__timeline__item__content__description__ul__li">Grand Luxxe Nuevo Vallarta receives AAA Five Diamond Rating</li>
@@ -451,7 +456,8 @@
 					</div>
 				
 					<ul class="estates_heritage__timeline__item__content__description__ul">
-						<li class="estates_heritage__timeline__item__content__description__ul__li">Grand Luxxe tower 5 and the Vidanta Vallarta golf course, designed by Greg Norman, open in Nuevo Vallarta Grand Luxxe Tower 4 and The Grand Bliss Tower 3 & 4 open in Riviera Maya</li>
+						<li class="estates_heritage__timeline__item__content__description__ul__li"> Grand Luxxe Tower 4 and The Grand Bliss Tower 3 & 4 open in Riviera Maya</li>
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Grand Luxxe Tower 5 and the Vidanta Vallarta golf course, designed by Greg Norman, open in Nuevo Vallarta</li>
 						<li class="estates_heritage__timeline__item__content__description__ul__li">La Plaza opens in Acapulco</li>
 					</ul>
 				
@@ -511,7 +517,9 @@
 						<img src="../img/heritage/timeline/2018.webp" alt="">
 					</div>
 
-					<p class="estates_heritage__timeline__item__content__description">Salum Beachside Eateries and Market open in Riviera Maya</p>
+					<ul class="estates_heritage__timeline__item__content__description__ul">
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Salum Beachside Eateries and Market open in Riviera Maya</li>
+					</ul>
 
 				</div>
 
@@ -538,7 +546,7 @@
 					</div>
 
 					<ul class="estates_heritage__timeline__item__content__description__ul">
-						<li class="estates_heritage__timeline__item__content__description__ul__li"> Vidanta Cruises is announced along with its inaugural ship, Elegant Vidanta Ultra Mega Yacht</li>
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Vidanta Cruises is announced along with its inaugural ship, Vidanta Elegant Ultra Mega Yacht</li>
 						<li class="estates_heritage__timeline__item__content__description__ul__li">Jungala Aqua Experience opens in Riviera Maya</li>
 						<li class="estates_heritage__timeline__item__content__description__ul__li">Grand Luxxe Tower 6 opens in Nuevo Vallarta</li>
 					</ul>
@@ -569,8 +577,7 @@
 
 					<ul class="estates_heritage__timeline__item__content__description__ul">
 						<li class="estates_heritage__timeline__item__content__description__ul__li">SkyDream Parks Gondola opens in Nuevo Vallarta</li>
-						<li class="estates_heritage__timeline__item__content__description__ul__li">Jungala Aqua Experience opens in Riviera Maya</li>
-						<li class="estates_heritage__timeline__item__content__description__ul__li">Emperor’s Private Reserve and Beachland open in Nuevo Vallarta</li>
+						<li class="estates_heritage__timeline__item__content__description__ul__li">The Estates  open in Nuevo Vallarta</li>
 					</ul>
 
 				</div>
@@ -597,7 +604,9 @@
 						<img src="../img/heritage/timeline/2022.webp" alt="">
 					</div>
 
-					<p class="estates_heritage__timeline__item__content__description">Vidanta Nuevo Vallarta becomes the official host of the PGA TOUR Mexico Open at Vidanta</p>
+					<ul class="estates_heritage__timeline__item__content__description__ul">
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Vidanta Nuevo Vallarta becomes the official host of the PGA TOUR Mexico Open at Vidanta</li>
+					</ul>
 
 				</div>
 
@@ -623,7 +632,9 @@
 						<img src="../img/heritage/timeline/Upcoming.webp" alt="">
 					</div>
 
-					<p class="estates_heritage__timeline__item__content__description">Our future projects include the operations debut of Vidanta Cruises, the opening of Vidanta East Cape, and the inauguration of Emperor’s Private Reserve in Riviera Maya and East Cape. Also, EPIK Theme Park will be opening its doors as the first theme park at VidantaWorld</p>
+
+
+					<p class="estates_heritage__timeline__item__content__description">Future projects include the launch of Vidanta Elegant Ultra Mega Yacht, The Estates in Riviera Maya, ad Vidanta East Cape. BON Beauty of Nature Luxury Theme Park soon will debut as the first theme park at VidantaWorld Nuevo Vallarta.</p>
 
 				</div>
 
