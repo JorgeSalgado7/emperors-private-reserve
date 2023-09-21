@@ -65,7 +65,7 @@
 
 		<div class="container">
 
-			<h2 class="estates_destinations__h2">Emperor’s Private Reserve ACCOMMODATIONS / DESTINATIONS</h2>
+			<h2 class="estates_destinations__h2">Emperor’s Private Reserve ACCOMMODATIONS</h2>
 
 			<div class="estates_destinations__grid">
 

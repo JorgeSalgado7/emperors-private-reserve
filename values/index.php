@@ -56,7 +56,7 @@
 			<div class="estates_values_white__text">
 				<h2 class="estates_values_white__text__h2">Convenient Location and Thriving Culture</h2>
 				<p class="estates_values_white__text__p">Often, vacationers seeking an ultra-luxurious and adventure-filled
-					destination have to travel around the world. However, with 7 easily accessible locations across Mexico, The Vidanta Resorts are a much quicker and convenient travel option for many of our
+					destination have to travel around the world. However, with 7 easily accessible locations across Mexico, The Vidanta resorts are a much quicker and convenient travel option for many of our
 					guests. Furthermore, Mexico boasts a diverse and gorgeous landscape, along with an exciting history, vibrant
 					culture, delicious cuisine, and warm hospitality. There is no shortage of experiences to savor.</p>
 			</div>

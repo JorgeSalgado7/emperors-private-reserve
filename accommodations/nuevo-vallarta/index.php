@@ -69,7 +69,7 @@
 					<li>Pool: Private Plunge Pool</li>
 					<li>Kitchen: In-Unit Kitchen with Premium Appliances and Breakfast Bar</li>
 					<li>Dining: Dining Area with Table for 6</li>
-					<li>Living Room: Living Area with Sofa, Coffee Table, and Two Armchairss</li>
+					<li>Living Room: Living Area with Sofa, Coffee Table, and Two Armchairs</li>
 					<li>TVs: Located in Bedroom and Living Area</li>
 				</ul>
 			</div>

@@ -82,7 +82,7 @@
 			<div class="estates_difference_destinations__text">
 				<h2 class="estates_difference_destinations__text__h2">Breathtaking Destinations</h2>
 				<p class="estates_difference_destinations__text__p">Choose from 7 distinct and sought-after locales across
-					Mexico – with 1 more coming soon – through Emperor’s Private Reserve’ sister resorts. These destinations are each unique in
+					Mexico – with 1 more coming soon – through Emperor’s Private Reserve’s sister resorts. These destinations are each unique in
 					their beauty and charms, but all united in their luxury.</p>
 			</div>
 
