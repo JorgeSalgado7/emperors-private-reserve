@@ -47,7 +47,7 @@
 		width: 68px;
 		height: 68px;
 		color: $white;
-		background-color: $dark_jungle_green_2;
+		background-color: $black;
 		font-size: 30px;
 		@include flex-center-center;
 		transition: 0.3s;
@@ -55,7 +55,7 @@
 
 		&:hover {
 			background-color: $white;
-			color: $dark_jungle_green_2;
+			color: $black;
 		}
 
 	}

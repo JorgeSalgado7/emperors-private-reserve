@@ -98,7 +98,6 @@
 					line-height: 41px;
 					max-width: 80%;
 					letter-spacing: 0.15em;
-					padding: 0 2.5rem;
 					margin-top: 0;
 				}
 
@@ -113,15 +112,14 @@
 				}
 
 				li {
-					list-style-position: inside;
 					color: $black;
 					margin-top: 10px;
 					font-size: 22px;
 
 					@media(min-width: 1200px) {
 						font-size: 24px;
-						line-height: 1.8em;
-						padding: 0 2.5rem;
+						line-height: 30px;
+						margin-top: 20px;
 					}
 
 				}
@@ -233,7 +231,6 @@
 					line-height: 41px;
 					max-width: 80%;
 					letter-spacing: 0.15em;
-					padding: 0 2.5rem;
 					margin-top: 0;
 				}
 			}
@@ -247,7 +244,6 @@
 				}
 
 				li {
-					list-style-position: inside;
 					color: $white;
 					margin-top: 10px;
 					font-size: 22px;
@@ -255,7 +251,7 @@
 					@media(min-width: 1200px) {
 						font-size: 24px;
 						line-height: 1.8em;
-						padding: 0 2.5rem;
+						margin-top: 20px;
 					}
 
 				}

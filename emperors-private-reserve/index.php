@@ -67,25 +67,17 @@
 
 			<h2 class="estates_destinations__h2">Emperor’s Private Reserve DESTINATIONS</h2>
 
-			<div class="estates_destinations__grid">
+			<div class="estates_destinations__card">
 
-				<div class="estates_destinations__grid__item"></div>
-
-				<!-- NUEVO VALLARTA -->
-				<div class="estates_destinations__grid__item">
-
-					<div class="estates_destinations__grid__item__img">
-						<img src="../img/about/nv.webp" alt="">
-					</div>
-
-					<h3 class="estates_destinations__grid__item__h3">Vidanta Nuevo Vallarta:<br>Now Open</h3>
-
-					<a href="/emperors-private-reserve/accommodations/nuevo-vallarta/" class="estates_destinations__grid__item__link">Explore Emperor’s Private Reserve
-						nuevo vallarta</a>
-
+				<div class="estates_destinations__card__img">
+					<img src="../img/about/nv.webp" alt="Emperors Pavilion">
 				</div>
 
-				<div class="estates_destinations__grid__item"></div>
+				<div class="estates_destinations__card__text">
+					<h2>Vidanta Nuevo Vallarta:<br>Now open</h2>
+					<a href="/emperors-private-reserve/accommodations/">Explore Emperor's Pavilion Nuevo Vallarta</a>
+				</div>
+				
 
 			</div>
 
