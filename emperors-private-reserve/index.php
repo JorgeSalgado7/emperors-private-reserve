@@ -75,7 +75,7 @@
 
 				<div class="estates_destinations__card__text">
 					<h2>Vidanta Nuevo Vallarta:<br>Now open</h2>
-					<a href="/emperors-private-reserve/accommodations/">Explore Emperor's Pavilion Nuevo Vallarta</a>
+					<a href="/emperors-private-reserve/accommodations/">Explore Emperor's Pavilion<br>Nuevo Vallarta</a>
 				</div>
 				
 
