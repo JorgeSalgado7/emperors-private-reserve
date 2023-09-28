@@ -1514,9 +1514,6 @@
     transition: 0.3s;
     font-size: 20px;
     cursor: pointer; }
-    @media (min-width: 768px) {
-      .estates_accommodations_hotel__modal--close {
-        font-size: 30px; } }
     .estates_accommodations_hotel__modal--close:hover {
       background-color: #000000; }
   .estates_accommodations_hotel__modal__title {

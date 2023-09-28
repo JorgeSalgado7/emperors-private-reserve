@@ -347,10 +347,6 @@
 			font-size: 20px;
 			cursor: pointer;
 
-			@media(min-width: 768px) {
-				font-size: 30px;
-			}
-
 			&:hover {
 				background-color: $black;
 			}
