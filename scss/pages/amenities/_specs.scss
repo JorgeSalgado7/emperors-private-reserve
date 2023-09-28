@@ -45,6 +45,7 @@
 		width: 100%;
 		max-width: 400px;
 		margin: 0 auto;
+		padding-left: 20px;
 
 		@media(min-width: 992px) {
 			margin: 0 0 0 auto;
@@ -52,7 +53,6 @@
 
 		&__li {
 			color: $white;
-			list-style-position: inside;
 			font-size: 22px;
 			margin-top: 10px;
 		}

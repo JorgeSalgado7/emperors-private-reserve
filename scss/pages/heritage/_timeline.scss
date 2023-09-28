@@ -169,13 +169,13 @@
 				&__ul{
 					width: 100%;
 					max-width: 100%;
+					padding-left: 20px;
 
 					@media(min-width: 768px){
 						max-width: 466px;
 					}
 				
 					&__li{
-						list-style-position: inside;
 						font-size: 20px;
 						line-height: 1.25;
 						color: $eerie_black;

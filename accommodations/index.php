@@ -76,7 +76,7 @@
 
 			<button class="estates_accommodations_hotel__white__img" id="estatesOneBedroomButton"
 				onclick="openEstatesOneBedroomModal()">
-				<img src="../img/accommodations/bedrooms/The Estates 1BD/20220322_VIDANTA_Estates2_07_88_MAIN.webp" alt="">
+				<img src="../img/accommodations/bedrooms/1-bedroom-emperors-villa.webp" alt="">
 
 				<div class="estates_accommodations_hotel__white__img__button">
 					<img src="../img/accommodations/plan.png" alt="">
@@ -99,7 +99,7 @@
 			<h1 class="estates_accommodations_hotel__modal__title">One Bedroom Emperor’s Villa  </h1>
 		</div>
 
-		<img src="../img/accommodations/floorplans/The Estates - OneBedroom NV-RM.webp" alt="">
+		<img src="../img/accommodations/floorplans/1-bed-room.webp" alt="">
 
 	</div>
 
@@ -114,7 +114,7 @@
 		<div class="container">
 
 			<button class="estates_accommodations_hotel__green__img" onclick="openEstatesTwoBedroomModal()">
-				<img src="../img/accommodations/bedrooms/The Estates 2BD/20220322_VIDANTA_Estates2_03b_85_MAIN.webp" alt="">
+				<img src="../img/accommodations/bedrooms/2-bed-room.webp" alt="">
 
 				<div class="estates_accommodations_hotel__green__img__button">
 					<img src="../img/accommodations/plan.png" alt="">
@@ -154,7 +154,7 @@
 			<h1 class="estates_accommodations_hotel__modal__title">Two Bedroom Emperor’s Villa</h1>
 		</div>
 
-		<img src="../img/accommodations/floorplans/TheEstates - TwoBedroom NV-RM.webp" alt="">
+		<img src="../img/accommodations/floorplans/2-bed-rooms.webp" alt="">
 
 	</div>
 
@@ -186,7 +186,7 @@
 			</div>
 
 			<button class="estates_accommodations_hotel__white__img" onclick="openEstatesThreeBedroomModal()">
-				<img src="../img/accommodations/bedrooms/The Estates 3BD/20220322_VIDANTA_Estates2_02_37_MAIN.webp" alt="">
+				<img src="../img/accommodations/bedrooms/4-bedroom.webp" alt="">
 
 				<div class="estates_accommodations_hotel__white__img__button">
 					<img src="../img/accommodations/plan.png" alt="">
@@ -209,7 +209,7 @@
 			<h1 class="estates_accommodations_hotel__modal__title">Four Bedroom Emperor’s Villa</h1>
 		</div>
 
-		<img src="../img/accommodations/floorplans/Floor Plan The Estates 3 Bdrm (1).webp" alt="">
+		<img src="../img/accommodations/floorplans/4-bedrooms.webp" alt="">
 
 	</div>
 

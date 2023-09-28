@@ -640,12 +640,12 @@
             max-width: 466px; } }
         .estates_heritage__timeline__item__content__description__ul {
           width: 100%;
-          max-width: 100%; }
+          max-width: 100%;
+          padding-left: 20px; }
           @media (min-width: 768px) {
             .estates_heritage__timeline__item__content__description__ul {
               max-width: 466px; } }
           .estates_heritage__timeline__item__content__description__ul__li {
-            list-style-position: inside;
             font-size: 20px;
             line-height: 1.25;
             color: #1f1f1f;
@@ -1516,9 +1516,6 @@
     cursor: pointer; }
     @media (min-width: 768px) {
       .estates_accommodations_hotel__modal--close {
-        width: 67px;
-        height: 67px;
-        min-height: 67px;
         font-size: 30px; } }
     .estates_accommodations_hotel__modal--close:hover {
       background-color: #000000; }
@@ -1540,7 +1537,7 @@
   .estates_accommodations_hotel__modal img {
     max-width: 100%;
     max-height: 50vh;
-    margin: 0 auto 67px; }
+    margin: auto; }
 
 .estates_accommodations_hotel__h2_responsive {
   width: 100%;
@@ -1661,13 +1658,13 @@
   .estates_amenities_specs__ul {
     width: 100%;
     max-width: 400px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-left: 20px; }
     @media (min-width: 992px) {
       .estates_amenities_specs__ul {
         margin: 0 0 0 auto; } }
     .estates_amenities_specs__ul__li {
       color: #FFFFFF;
-      list-style-position: inside;
       font-size: 22px;
       margin-top: 10px; }
 
