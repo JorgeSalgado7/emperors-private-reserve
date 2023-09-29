@@ -634,7 +634,7 @@
 					</div>
 
 					<ul class="estates_heritage__timeline__item__content__description__ul">
-						<li class="estates_heritage__timeline__item__content__description__ul__li">Future projects include the launch of Vidanta Elegant Ultra Mega Yacht, The Estates in Riviera Maya, ad Vidanta East Cape. BON Beauty of Nature Luxury Theme Park soon will debut as the first theme park at VidantaWorld Nuevo Vallarta.</li>
+						<li class="estates_heritage__timeline__item__content__description__ul__li">Future projects include the launch of Vidanta Elegant Ultra Mega Yacht, The Estates in Riviera Maya, and Vidanta East Cape. BON Beauty of Nature Luxury Theme Park soon will debut as the first theme park at VidantaWorld Nuevo Vallarta.</li>
 					</ul>
 
 				</div>
